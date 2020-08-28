@@ -25,6 +25,7 @@
         {{- end }}
         {{ .Content }}
       </article>
+      {{ partial "share.html" . }}
       {{ template "_internal/disqus.html" . }}
     </main>
     <nav class="end-nav side-padding">
