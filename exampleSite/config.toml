@@ -1,4 +1,4 @@
-baseurl = "http://example.org"
+baseurl = "https://example.com"
 title = "Hugo Themes - aether"
 author = "Joe Hutchinson"
 canonifyurls = true
@@ -9,7 +9,7 @@ themesDir = "../../"
 [params]
     brand = "aether"
     description = "aether Hugo theme for blogs"
-    bgimg = "img/ignasi_pattern_s.png"
+    headshotimg = "img/faceshot.jpg"
 
 [markup]
   [markup.highlight]
