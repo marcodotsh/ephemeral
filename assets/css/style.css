@@ -1,7 +1,7 @@
 body {
     font-family: Avenir, HelveticaNeue-Light, "Helvetica Neue Light",
                  "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    color: #454545;
+    color: #202020;
     font-size: 1.1em;
     background-color: #E2E5EA;
     margin: 0;
@@ -68,6 +68,7 @@ p {
     font-size: 1.4em;
 }
 .nav-text {
+    color: #202020;
     font-weight: normal;
     text-decoration: none;
     z-index: 105;
@@ -97,7 +98,7 @@ p {
     width: 33px;
     height: 3px;
     position: relative;
-    background-color: #454545;
+    background-color: #202020;
     border-radius: 3px;
     transform-origin: center;
     transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0),
