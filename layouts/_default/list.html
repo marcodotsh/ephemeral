@@ -10,6 +10,11 @@
         {{ with .Description }}<p class="list-header-subtext">{{ . }}</p>{{ end }}
       </header>
       {{- end }}
+
+      {{ if (eq .Title "corsa") -}}
+        {{ partial "strava.html" . }}
+      {{- end }}
+
       {{ with .Content -}}
       <section class="list-header-content">
         {{ . }}
