@@ -37,6 +37,7 @@
       {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}" class="pagination-older pagination-text">Older Posts &gt;</a>{{ end }}
     </nav>
     {{- end }}
+    {{ partial "strava.html" . }}
     {{ partial "scripts.html" . }}
   </body>
 </html>
