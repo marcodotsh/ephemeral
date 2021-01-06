@@ -12,6 +12,11 @@
       {{- end }}
 
       {{ if (eq .Title "corsa") -}}
+        <style>
+          .list-header {
+            margin-bottom: 2em;
+          }
+        </style>
         {{ partial "strava.html" . }}
       {{- end }}
 
