@@ -22,7 +22,6 @@
   {{ if (fileExists "layouts/partials/meta-tags.html") -}}
     {{ partial "meta-tags.html" . }}
   {{ end -}}
-  {{ partial "google/adsense" . }}
   {{ with resources.Get "css/katex.css" -}}
   <link href="{{ .Permalink }}" rel="stylesheet">
   {{ end -}}
