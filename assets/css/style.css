@@ -23,7 +23,6 @@ p {
     display: flex;
     flex-direction: column;
     z-index: -1;
-    color: white;
     background-position: center;
     background-size: cover;
 }
@@ -58,7 +57,7 @@ p {
 .nav-bar {
     max-width: 60rem;
     width: 100%;
-    padding: 0.4em 0;
+    padding: 0.6em 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -457,7 +456,7 @@ footer {
     margin: 1rem 0;
 }
 .footer-icon {
-    max-width: 3.2rem;
+    max-width: 3rem;
     margin: 0;
 }
 @media screen and (pointer: coarse) {

@@ -2,28 +2,28 @@
     {{ if ( not .IsHome )}}
     <a href="{{ $.Site.BaseURL }}" class="footer-link">
     {{ with resources.Get "icons/home-page.png" }}
-        <img alt="Icona Home" class="footer-icon" src="{{ .Permalink }}">
+    <img alt="Home" class="footer-icon" src="{{ .Permalink }}">
     {{ end }}
     </a>
     {{ end }}
     {{ if isset $.Site.Params "github"}}
     <a href="{{ $.Site.Params.github }}" class="footer-link">
     {{ with resources.Get "icons/github.png" }}
-        <img alt="Icona Github" class="footer-icon" src="{{ .Permalink }}" />
+        <img alt="Github" class="footer-icon" src="{{ .Permalink }}" />
     {{ end }}
     </a>
     {{ end }}
     {{ if isset $.Site.Params "strava"}}
     <a href="{{ $.Site.Params.strava }}" class="footer-link">
     {{ with resources.Get "icons/strava.png" }}
-        <img alt="Icona Strava" class="footer-icon" src="{{ .Permalink }}" />
+        <img alt="Strava" class="footer-icon" src="{{ .Permalink }}" />
     {{ end }}
     </a>
     {{ end }}
     {{ if isset $.Site.Params "linkedin"}}
     <a href="{{ $.Site.Params.linkedin }}" class="footer-link">
     {{ with resources.Get "icons/linkedin.png" }}
-        <img alt="Icona Linkedin" class="footer-icon" src="{{ .Permalink }}" />
+        <img alt="Linkedin" class="footer-icon" src="{{ .Permalink }}" />
     {{ end }}
     </a>
     {{ end }}
