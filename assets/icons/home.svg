@@ -1,55 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   width="100%"
-   height="100%"
-   viewBox="6 6 52 52"
    version="1.1"
+   id="Layer_5"
+   x="0px"
+   y="0px"
+   width="512px"
+   height="512px"
+   viewBox="0 0 512 512"
+   enable-background="new 0 0 512 512"
    xml:space="preserve"
-   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;"
-   id="svg11">
-  <metadata
-   id="metadata17">
-    <rdf:RDF>
-      <cc:Work
-   rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs2715" />
 
-        <dc:type
-   rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-
-      </cc:Work>
-
-    </rdf:RDF>
-
-  </metadata>
-
-  <defs
-   id="defs15" />
-
-  
-  <path
-   d="M55.579,31.579c0.693,0.693 0.781,1.787 0.208,2.583c-0.396,0.549 -0.857,1.189 -1.284,1.781c-0.342,0.476 -0.877,0.777 -1.461,0.824c-0.585,0.048 -1.161,-0.164 -1.575,-0.579c-4.986,-4.985 -19.467,-19.466 -19.467,-19.466c0,0 -14.481,14.481 -19.467,19.466c-0.414,0.415 -0.99,0.627 -1.575,0.579c-0.584,-0.047 -1.119,-0.348 -1.461,-0.824c-0.427,-0.592 -0.888,-1.232 -1.284,-1.781c-0.573,-0.796 -0.485,-1.89 0.208,-2.583c4.962,-4.962 23.579,-23.579 23.579,-23.579c0,0 18.617,18.617 23.579,23.579Z"
-   style="fill:none;stroke:#141823;stroke-width:3px;"
-   id="path3" />
-
-  <path
-   d="M13.977,34.745l18.023,-18.023l18.023,18.023l0,20.002c0,0.598 -0.237,1.171 -0.66,1.593c-0.422,0.423 -0.995,0.66 -1.593,0.66c-6.472,0 -25.068,0 -31.54,0c-0.598,0 -1.171,-0.237 -1.593,-0.66c-0.423,-0.422 -0.66,-0.995 -0.66,-1.593l0,-20.002Z"
-   style="fill:none;stroke:#141823;stroke-width:3px;"
-   id="path5" />
-
-  <path
-   d="M20.736,19.264l-7.885,7.885l0,-11.827l7.885,0l0,3.942Z"
-   style="fill:none;stroke:#141823;stroke-width:3px;"
-   id="path7" />
-
-  <path
-   d="M37,44.5c0,-0.398 -0.158,-0.779 -0.439,-1.061c-0.282,-0.281 -0.663,-0.439 -1.061,-0.439c-1.888,0 -5.112,0 -7,0c-0.398,0 -0.779,0.158 -1.061,0.439c-0.281,0.282 -0.439,0.663 -0.439,1.061c0,3.613 0,12.5 0,12.5l10,0l0,-12.5Z"
-   style="fill:none;stroke:#141823;stroke-width:3px;"
-   id="path9" />
-
-</svg>
+<g
+   id="g296"
+   style="clip-rule:evenodd;fill-rule:evenodd;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;stroke-opacity:1"
+   transform="matrix(9.8461656,0,0,9.8461656,-59.077299,-64.000688)"><path
+     d="m 55.579,31.579 c 0.693,0.693 0.781,1.787 0.208,2.583 -0.396,0.549 -0.857,1.189 -1.284,1.781 -0.342,0.476 -0.877,0.777 -1.461,0.824 -0.585,0.048 -1.161,-0.164 -1.575,-0.579 C 46.481,31.203 32,16.722 32,16.722 c 0,0 -14.481,14.481 -19.467,19.466 -0.414,0.415 -0.99,0.627 -1.575,0.579 C 10.374,36.72 9.839,36.419 9.497,35.943 9.07,35.351 8.609,34.711 8.213,34.162 7.64,33.366 7.728,32.272 8.421,31.579 13.383,26.617 32,8 32,8 32,8 50.617,26.617 55.579,31.579 Z"
+     style="fill:none;stroke:#000000;stroke-width:3px;stroke-opacity:1"
+     id="path3" /><path
+     d="M 13.977,34.745 32,16.722 50.023,34.745 v 20.002 c 0,0.598 -0.237,1.171 -0.66,1.593 -0.422,0.423 -0.995,0.66 -1.593,0.66 -6.472,0 -25.068,0 -31.54,0 -0.598,0 -1.171,-0.237 -1.593,-0.66 -0.423,-0.422 -0.66,-0.995 -0.66,-1.593 z"
+     style="fill:none;stroke:#000000;stroke-width:3px;stroke-opacity:1"
+     id="path5" /><path
+     d="m 20.736,19.264 -7.885,7.885 V 15.322 h 7.885 z"
+     style="fill:none;stroke:#000000;stroke-width:3px;stroke-opacity:1"
+     id="path7" /><path
+     d="M 37,44.5 C 37,44.102 36.842,43.721 36.561,43.439 36.279,43.158 35.898,43 35.5,43 c -1.888,0 -5.112,0 -7,0 -0.398,0 -0.779,0.158 -1.061,0.439 C 27.158,43.721 27,44.102 27,44.5 27,48.113 27,57 27,57 h 10 z"
+     style="fill:none;stroke:#000000;stroke-width:3px;stroke-opacity:1"
+     id="path9" /></g></svg>

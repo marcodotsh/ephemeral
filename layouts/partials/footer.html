@@ -18,7 +18,7 @@
     {{ end }}
     </a>
     {{ end }}
-    {{ if isset $.Site.Params "github"}}
+	    {{ if isset $.Site.Params "github"}}
     <a href="{{ $.Site.Params.github }}" class="footer-link" target="_blank" rel="noopener noreferrer">
     {{ with resources.Get "icons/github.svg" }}
         <img class="footer-icon" src="{{ .Permalink }}" alt="GitHub"/>
@@ -64,6 +64,13 @@
     <a href="{{ $.Site.Params.spotify }}" class="footer-link" target="_blank" rel="noopener noreferrer">
     {{ with resources.Get "icons/spotify.svg" }}
         <img class="footer-icon" src="{{ .Permalink }}" alt="Spotify"/>
+    {{ end }}
+    </a>
+    {{ end }}
+    {{ if isset $.Site.Params "strava"}}
+    <a href="{{ $.Site.Params.strava }}" class="footer-link" target="_blank" rel="noopener noreferrer">
+	    {{ with resources.Get "icons/strava.svg" }}
+        <img class="footer-icon" src="{{ .Permalink }}" alt="Strava"/>
     {{ end }}
     </a>
     {{ end }}
