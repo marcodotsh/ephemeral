@@ -40,6 +40,7 @@ p {
     border-radius: 0.8rem;
 }
 .home-blob-text-container {
+    color: #222;
     margin: 2em 0;
     max-width: 30rem;
     line-height: 1.5;
@@ -391,7 +392,7 @@ blockquote p {
 }
 ul,
 ol {
-    padding-left: 1.6em; 
+    padding-left: 1.6em;
 }
 li ul, li ol {
     padding-left: 1em;
@@ -400,7 +401,7 @@ li > p {
     margin: 0;
 }
 code {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: monospace;
     padding: .2em .5em;
     line-height: 1.5;
@@ -411,7 +412,7 @@ pre > code {
     margin: 1.5em 0;
     display: block;
     padding: 0.5em;
-    word-break: normal;
+    word-break: break-word;
     overflow-x: auto;
     color: black;
 }
@@ -552,5 +553,108 @@ footer {
     }
     code {
         border-radius: 0.2rem;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: white;
+    }
+    /*.home-faceshot-card {
+        background-color: #424242;
+        box-shadow: 0 0.7rem 2.3rem 0 rgba(0,0,0,0.05);
+    }*/
+    .hamburger-menu-icon span {
+        background-color: white;
+        transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0),
+                    background-color 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+    .hamburger-menu-button:checked + .hamburger-menu-icon span {
+        background-color: black;
+        transform: rotate(45deg) translate(3.2px , 3.2px);
+    }
+    .hamburger-menu-overlay {
+        background-color: #fff;
+    }
+    .hamburger-menu-overlay-link {
+        color: black;
+    }
+    .post-title {
+        color: #799bd0;
+    }
+    .post-date {
+        color: #8c8c8c;
+    }
+    .content {
+        background-color: #222222;
+    }
+    .card {
+        background-color: #222222;
+        box-shadow: 0 0.7rem 2.3rem 0 rgba(0,0,0,0.05);
+    }
+    .home-card {
+        color: #222222;
+    }
+    .card-img-overlay {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .card-title {
+        color: #799bd0;
+    }
+    .button {
+        background-color: #FFF;
+    }
+    .muted-text {
+        color: #8c8c8c;
+    }
+    .nav-text {
+        color: white;
+    }
+    blockquote {
+        border-left: 0.3em solid #D1D1D1;
+    }
+    li::marker {
+        color: black;
+    }
+    code {
+        background-color: #101010;
+    }
+    pre > code {
+        color: #F0F0F0;
+    }
+    hr {
+        border-bottom: thin solid #D1D1D1;
+    }
+    a {
+        color: #ddd;
+    }
+    table {
+        color: white;
+    }
+    thead {
+        background: #151617;
+    }
+    td,
+    th {
+        border: thin solid #D1D1D1;
+    }
+    tr:nth-child(even) td {
+        background: #353637;
+    }
+    footer {
+        color: white;
+    }
+
+    @media screen and (pointer: coarse) {
+        .card:hover {
+            box-shadow: 0 0.4rem 2rem 0 rgba(0,0,0,0.06);
+        }
+    }
+    @media not screen and (pointer: coarse) {
+        .card:hover {
+            box-shadow: 0 0.4rem 2rem 0 rgba(0,0,0,0.06);
+        }
     }
 }

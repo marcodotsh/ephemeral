@@ -14,4 +14,4 @@ themesDir = "../../"
 
 [markup]
   [markup.highlight]
-    style = "igor"
+    noClasses = false
