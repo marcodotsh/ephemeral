@@ -437,7 +437,7 @@ pre > code {
     margin: 1.5em 0;
     display: block;
     padding: 0.5em;
-    word-break: break-word;
+    word-break: normal;
     overflow-x: auto;
     color: black;
 }
