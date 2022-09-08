@@ -1,3 +1,6 @@
 [posted]
   other = "Pubblicato il"
-
+[prev-article]
+  other = "Articolo precedente"
+[next-article]
+  other = "Articolo successivo"
