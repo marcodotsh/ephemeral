@@ -34,8 +34,11 @@
       {{ template "_internal/disqus.html" . }}
     </main>
     <nav class="end-nav side-padding">
-      {{ with .PrevInSection }}
+      {{ with .NextInSection }}
       {{ .Render "li-next" }}
+      {{ end }}
+      {{ with .PrevInSection }}
+      {{ .Render "li-prev" }}
       {{ end }}
     </nav>
     {{ partial "footer.html" . }}

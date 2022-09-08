@@ -71,6 +71,29 @@ p {
     text-decoration: none;
     z-index: 105;
 }
+.nav-menus {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 20px;
+    position: relative;
+}
+#languageMenu {
+    display: none;
+}
+.currLang {
+    user-select: none;
+}
+.languageList {
+    position: absolute;
+    left: -30px;
+    list-style: none;
+}
+#languageMenu + ul {
+    display: none;
+}
+#languageMenu:checked + ul {
+    display: block;
+}
 .hamburger-menu {
     display: flex;
     align-items: center;
@@ -241,6 +264,9 @@ p {
     align-items: stretch;
 }
 .bc-next {
+    margin-top: 0;
+}
+.bc-prev {
     margin-top: 0;
 }
 .card-img-container {
