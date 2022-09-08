@@ -1,10 +1,15 @@
 # aether
 
 [![Validate Generated Files](https://github.com/josephhutch/aether/actions/workflows/main.yml/badge.svg)](https://github.com/josephhutch/aether/actions/workflows/main.yml)
+Ephemeral is a fork of [Aether](https://github.com/josephhutch/aether/) with dynamic light/dark theme switching and multilingual support.
 
-Aether is a Hugo theme for blogs that emphasizes motion, depth, and material as design elements.  Aether presents your content in a clean interface that highlights good photography and writing.
+## Ephemeral Features
+-  Light/dark theme that follows device system theme
+-  Multilingual support, with nav bar selection
+-  Google Analytics removal
+-  Strava icon support
 
-## Features
+## Aether Features
  - It's **Fast**! PageSpeed scores consistently between 94-100
  - Fully **Responsive Design** allowing your site to look good on any size screen
  - Supports next-gen image format WebP with custom shortcodes
@@ -13,36 +18,45 @@ Aether is a Hugo theme for blogs that emphasizes motion, depth, and material as 
  - Customizable website background image and home button image
  - Highlight.js integration provides **beautiful syntax highlighting** for most programming languages and file formats
  - Add **math symbols and equations** to your blog posts using LaTeX
- - **Google Analytics** and **Disqus** integration
+ - ~~**Google Analytics**~~ and **Disqus** integration
 
-![Aether Hugo theme screenshot](https://raw.githubusercontent.com/josephhutch/aether/master/images/screenshot.png?_sm_au_=iVVVRRW7D405F0fN)
+![Aether Hugo theme screenshot](https://github.com/marcodotsh/ephemeral/blob/8b75e109f91b89e2e90bc4090bf8387e5ecb4c97/images/ephemeral-site.png)
 
 ## Installation
-In the root directory of your Hugo Project, clone the aether repo into the themes directory.
+In the root directory of your Hugo Project, clone the ephemeral repo into the themes directory.
 
 ```shell session
-git clone https://github.com/josephhutch/aether.git themes/aether
+git clone https://github.com/marcodotsh/ephemeral.git themes/ephemeral
 ```
 
 ## Usage
 ### Website Configuration
 Customize the look and feel of aether through the config.toml file. See how to fill in the config file below.
-
 ```
 baseURL = "https://yourwebsitenamegoeshere.com/"
-languageCode = "The language code for the language the website is written in"
-title = "The website title that is used in each page title, displayed in the browser tab and search results"
-theme = "aether"
-googleAnalytics = "Your google analytics tracking ID - optional"
+defaultContentLanguage = "Your primary language code"
+theme="ephemeral"
 disqusShortname = "Your shortname for Disqus - optional"
+
+[languages]
+  [languages.primaryLanguage]
+    title = "The website title used for every page"
+    weight = 1
+    [languages.primaryLanguage.params]
+      description = "Website description goes here"
+      headshotalt = "Alt text for headshotimg"
+  [languages.secondLanguage]
+    title = "Titolo del sito web usato per ogni pagina"
+    weitht = 2
+    [languages.secondLanguage.params]
+      description = "La descrizione del sito va qui"
+      headshotalt = "Testo alternativo per headshotimg"
 
 [params]
   brand = "The name that is displayed in the top left of the website - optional, title is fallback"
-  description = "The website's description"
   bgimg = "Path, within the 'assets' folder, of the image used for the page background - optional"
   headshotimg = "Path, within the 'assets' folder, of the image used for the home page header - optional"
-  headshotalt = "Alt text for the headshotimg - should be used with headshotimg"
-  rssinmenu = whether you would like a RSS feed link to appear in the nav menu and footer (true, false) - optional
+  rssinmenu = "whether you would like a RSS feed link to appear in the nav menu and footer (true, false) - optional"
   facebook = "URL to your Facebook account, icon link will be included in the footer - optional"
   flicker = "URL to your Flicker account, icon link will be included in the footer - optional"
   github = "URL to your GitHub account, icon link will be included in the footer - optional"
@@ -60,7 +74,7 @@ disqusShortname = "Your shortname for Disqus - optional"
 
 [markup]
   [markup.highlight]
-    style = "igor"
+    noClasses=false
 ```
 
 The `title` parameter is used for each page title, the title that search engines display in search results. If you would like the title shown in the top left of the page to be different from the page title, use the `brand` parameter. For instance, the title parameter for my site is `Joe Hutchinson` but the brand parameter is set to `joehutch`.
@@ -72,6 +86,26 @@ The `bgimg` parameters give you the ability to customize the look of your site f
 The default syntax highlighter `style` does not look great with aether so I recommend using igor. If you want to change the highlighter theme you can specify a different one from [this list](https://xyproto.github.io/splash/docs/all.html). To configure the syntax highlighter further, such as adding line numbers, check out [this Hugo doc section](https://gohugo.io/getting-started/configuration-markup#highlight).
 
 That is the only configuration required at the site level! You can now begin writing content for your site.
+
+#### Translate categories
+When assigning categories to posts, always use your default language (example: running, technology) and create the `i18n` in your hugo website with `langCode.toml` files corresponding to your languages.
+Example:
+`i18n/en.toml`
+```
+# Categories
+[technology]
+  other = "Technology"
+[running]
+  other = "Running"
+```
+`i18n/it.toml`
+```
+# Categories
+[technology]
+  other = "Tecnologia"
+[running]
+  other = "Corsa"
+```
 
 #### Favicons
 Aether supports a large array of favicon formats. Simply add your favicons with the correct file names to the root folder of your site (put them in the static folder). The favicon file names correspond to the files generated by the [real favicon generator](https://realfavicongenerator.net/).
