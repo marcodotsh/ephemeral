@@ -1,6 +1,6 @@
 # ephemeral
 
-[![Validate Generated Files](https://github.com/josephhutch/aether/actions/workflows/main.yml/badge.svg)](https://github.com/josephhutch/aether/actions/workflows/main.yml)
+[![Validate Generated Files](https://github.com/marcodotsh/ephemeral/actions/workflows/main.yml/badge.svg)](https://github.com/marcodotsh/ephemeral/actions/workflows/main.yml)
 Ephemeral is a fork of [Aether](https://github.com/josephhutch/aether/) with dynamic light/dark theme switching and multilingual support.
 
 ## Ephemeral Features
