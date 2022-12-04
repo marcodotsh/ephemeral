@@ -598,6 +598,12 @@ footer {
         background-color: #424242;
         box-shadow: 0 0.7rem 2.3rem 0 rgba(0,0,0,0.05);
     }*/
+    .home-blob-title {
+        color: #FFFFFF;
+    }
+    .home-blob-text {
+        color: #FFFFFF;
+    }
     .hamburger-menu-icon span {
         background-color: white;
         transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0),
