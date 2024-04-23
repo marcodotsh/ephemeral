@@ -243,6 +243,7 @@ p {
 }
 .card-container {
     max-width: 48rem;
+    z-index: 2;
 }
 /* .card-container > a:first-of-type {
     margin-top: 5em;
@@ -492,7 +493,6 @@ footer {
     color: white;
     background-position: 40% 0%;
     background-size: 50rem;
-    z-index: -1;
 }
 .footer-link {
     margin: 1rem 0;
