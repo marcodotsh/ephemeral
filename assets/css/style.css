@@ -492,6 +492,7 @@ footer {
     color: white;
     background-position: 40% 0%;
     background-size: 50rem;
+    z-index: -1;
 }
 .footer-link {
     margin: 1rem 0;

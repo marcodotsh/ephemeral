@@ -35,7 +35,7 @@
         {{ end -}}
         {{ range $key, $value := .Site.Taxonomies.categories -}}
         {{ with $.Site.GetPage (printf "%s%s" "categories/" ($key | urlize)) }}
-        <li><a href="{{ .Permalink }}" class="hamburger-menu-overlay-link">{{ i18n .Title }}</a></li>
+        <li><a href="{{ .Permalink }}" class="hamburger-menu-overlay-link">{{ i18n (.Title | lower) }}</a></li>
         {{ end }}
         {{- end }}
         {{ if eq .Site.Params.rssinmenu true -}}
